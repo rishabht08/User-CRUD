@@ -1,0 +1,73 @@
+.main-header{
+    min-width:100%;
+    height: 4rem;
+    background-color: rgb(47, 46, 46);
+    box-shadow: 0px 0px 10px 0px gray;
+    position: fixed;
+    display: flex;
+    padding-left: 2rem;
+    z-index: 5;
+}
+
+.dashboard{
+    display: flex;
+    position: relative;
+    left: 5%;
+}
+
+.dashboard span{
+    margin-top:1.5rem;
+    margin-left: 0.5rem;
+    color: white;
+}
+
+.users span{
+    margin-top:1.5rem;
+    margin-left: 0.5rem;
+    color: #efe01e;
+}
+
+.users{
+
+    display: flex;
+    position: relative;
+    left: 10%;
+
+}
+
+.sessions span{
+    margin-top:1.5rem;
+    margin-left: 0.5rem;
+    color: white;
+}
+
+.sessions{
+
+    display: flex;
+    position: relative;
+    left: 15%;
+
+}
+
+.userpanel{
+    display: flex;
+    position: relative;
+    left: 50%;
+    justify-content: space-evenly;
+    width: 15%;
+    
+
+}
+
+.user{
+    display: flex;
+    position: relative;
+   
+
+}
+
+.user span{
+    margin-top:1.5rem;
+    margin-left: 0.5rem;
+    color:white;
+}
